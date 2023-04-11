@@ -33,17 +33,13 @@ require("header.php");
         <div class="row justify-content-center">
             <div class="col-lg-8 col-xxl-6">
                 <div class="text-center my-5">
-                    <h1 class="fw-bolder mb-3">
-                        O que é Diplomacia?
-                    </h1>
+                 
                     <p class="lead fw-normal text-muted mb-4">
-                        Diplomacia consiste na atuação do representante profissional denominado diplomata, em
-                        estabilizar e
-                        defender os interesses internacionais de um país, preservando os relacionamentos com
-                        outros domínios no
-                        mercado exterior.
+                        O conservadorismo dizimou milhares A fogueira ainda queima. As bruxas ainda são caçadas e não têm caminho de fuga. A queimada é inevitável quando se é mulher. Seja por usar uma saia curta demais, levantar a voz ou no simples ato de dizer “não”, a mulher vive em perigo constante.
+
+                        -Stela Cambraia
+
                     </p>
-                    <a class="btn cor-btn btn-lg" href="#scroll-target">Leia mais</a>
                 </div>
             </div>
         </div>
@@ -54,20 +50,12 @@ require("header.php");
     <div class="container px-5 my-5">
         <div class="row gx-5 align-items-center">
             <div class="col-lg-6">
-                <img class="img-fluid rounded mb-5 mb-lg-0" src="imagem/img-sobre1.png" alt="..." />
+                <img class="img-fluid rounded mb-2 mb-lg-0" src="assets\images\pg2-1.jpeg" alt="..." />
             </div>
             <div class="col-lg-6">
-                <h2 class="fw-bolder">Como funciona a Diplomacia:</h2>
+                <h2 class="fw-bolder">Inquisição às bruxas:</h2>
                 <p class="lead fw-normal text-muted mb-0 mt-2">
-                    Como já mencionado, a função da diplomacia é visar um relacionamento benéfico entre nações.
-                    Além disso,
-                    essa área possui tarefas como a participação do representante (diplomata) do país em eventos
-                    internacionais; promover a cultura do país de origem no mercado externo; planejar acordos
-                    que visam
-                    estimular a economia internacional; proteção e negociação dos interesses do país em que o
-                    representante
-                    está instalado, e até mesmo a resolução de conflitos externos, evitando uma possível revolta
-                    (guerra).
+                <p>Na Europa, século XV, ocorreu a "caça às bruxas", em que as mulheres que "sabiam demais", tinham conhecimento de medicamentos a base de ervas, realizavam partos ou possuiam marcas na pele eram consideradas uma ameaça pelo patriarcado e pelo catolicismo, de modo a serem acusadas de bruxaria e queimadas vivas em fogueiras.</p>
                 </p>
             </div>
         </div>
@@ -78,28 +66,13 @@ require("header.php");
     <div class="container px-5 my-5">
         <div class="row gx-5 align-items-center">
             <div class="col-lg-6 order-first order-lg-last">
-                <img class="img-fluid rounded mb-5 mb-lg-0" src="imagem/img-sobre2.png" alt="..." />
+                <img class="rounded mb-2 mb-lg-0" src="assets\images\pg2-2.jpeg" alt="..." width="300" height="500" />
             </div>
             <div class="col-lg-6">
-                <h2 class="fw-bolder">Diplomata e onde atua:</h2>
+                <h2 class="fw-bolder">A fogueira ainda queima:</h2>
                 <p class="lead fw-normal text-muted mb-0 mt-2">
-                    A função de diplomata pode ser exercida por diversos profissionais nos países em que estão
-                    alocados,
-                    podendo atuar também em seus países de origem. No caso do Brasil, o representante que atuar
-                    no território
-                    brasileiro irá trabalhar em departamentos do Ministério das Relações Exteriores em Brasília,
-                    ou em
-                    entidades pertencentes à Organização das Nações Unidas, a ONU, que atuam no país. Já em
-                    outros países, o
-                    diplomata realiza seu trabalho em embaixadas (embaixador), responsáveis pelas relações com o
-                    país no qual
-                    ele está instalado. Podendo atuar também em consulados (cônsul), que são mais atribuídos em
-                    questões
-                    relacionadas à população, sendo ambas as funções complementares. Em outros casos, o
-                    profissional pode
-                    trabalhar em departamentos especializados da ONU ou em missões internacionais
-                    especializadas.
-
+                <p>Estima-se que certa de 50 mil mulheres foram condenadas por bruxaria nesse período, sem nenhuma prova ou evidencia que comprovasse essa teoria, elas foram mortas apenas por não se encaixarem no padrão imposto pela sociedade da época. Dessa forma, a inquisição contra as bruxas foi o primeiro feminicídio registrado na história.</p>
+                <p>Com isso, observa-se desde a idade contemporânea, o modo cruel de como as fake news criadas pelo patriarcado atuam contra as mulheres, levando-as à muitas vezes a morte.</p>
                 </p>
             </div>
         </div>

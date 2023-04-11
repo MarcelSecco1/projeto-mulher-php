@@ -33,17 +33,10 @@ require("header.php");
         <div class="row justify-content-center">
             <div class="col-lg-8 col-xxl-6">
                 <div class="text-center my-5">
-                    <h1 class="fw-bolder mb-3">
-                        O que é Diplomacia?
-                    </h1>
+                    
                     <p class="lead fw-normal text-muted mb-4">
-                        Diplomacia consiste na atuação do representante profissional denominado diplomata, em
-                        estabilizar e
-                        defender os interesses internacionais de um país, preservando os relacionamentos com
-                        outros domínios no
-                        mercado exterior.
-                    </p>
-                    <a class="btn cor-btn btn-lg" href="#scroll-target">Leia mais</a>
+                        A tentativa de padronizar os corpos femininos e limitar a liberdade das mulheres está presente no nosso cotidiano até hoje, levando á distúrbios e até a morte daquelas que sofrem com o padrão doentio imposto pela sociedade. </p>
+                   
                 </div>
             </div>
         </div>
@@ -54,20 +47,14 @@ require("header.php");
     <div class="container px-5 my-5">
         <div class="row gx-5 align-items-center">
             <div class="col-lg-6">
-                <img class="img-fluid rounded mb-5 mb-lg-0" src="imagem/img-sobre1.png" alt="..." />
+                <img class="img-fluid rounded mb-2 mb-lg-0" src="assets\images\pg01-1.png" alt="..." />
             </div>
             <div class="col-lg-6">
-                <h2 class="fw-bolder">Como funciona a Diplomacia:</h2>
+                <h2 class="fw-bolder">Mito da beleza feminina:</h2>
                 <p class="lead fw-normal text-muted mb-0 mt-2">
-                    Como já mencionado, a função da diplomacia é visar um relacionamento benéfico entre nações.
-                    Além disso,
-                    essa área possui tarefas como a participação do representante (diplomata) do país em eventos
-                    internacionais; promover a cultura do país de origem no mercado externo; planejar acordos
-                    que visam
-                    estimular a economia internacional; proteção e negociação dos interesses do país em que o
-                    representante
-                    está instalado, e até mesmo a resolução de conflitos externos, evitando uma possível revolta
-                    (guerra).
+                <p>Mesmo sendo retratadas como detentoras de uma beleza sobrenatural, de causar inveja, as mulheres acabam sendo crucificadas pelos mesmos motivos.</p>
+                <p>“A liberdade feminina vai ser sempre muito temida. Ela começa sendo admirada, mas aquilo que é admirado demais, começa a ser invejado e aquilo que começa a ser invejado, começa a dar medo e aí é um passo pra virar ódio. Então, mulheres que são muito conscientes dos seus corpos, que são muito conscientes do seu poder, dão medo.”</p>
+                <p>A busca pela padronização dos corpos femininos é um fenômeno que pode ser analisado sob diferentes perspectivas. Entende-se que, ainda que esse padrão varie de acordo com o tempo, o espaço ou a cultura em que a mulher está inserida, a ideia de que seus corpos devem possuir uma aparência que atenda a certos critérios permanece inalterada.</p>
                 </p>
             </div>
         </div>
@@ -78,28 +65,14 @@ require("header.php");
     <div class="container px-5 my-5">
         <div class="row gx-5 align-items-center">
             <div class="col-lg-6 order-first order-lg-last">
-                <img class="img-fluid rounded mb-5 mb-lg-0" src="imagem/img-sobre2.png" alt="..." />
+                <img class="img-fluid rounded mb-2 mb-lg-0" src="assets\images\pg01-2.jpeg" alt="..." />
             </div>
             <div class="col-lg-6">
-                <h2 class="fw-bolder">Diplomata e onde atua:</h2>
+                <h2 class="fw-bolder">Padrão feminino:</h2>
                 <p class="lead fw-normal text-muted mb-0 mt-2">
-                    A função de diplomata pode ser exercida por diversos profissionais nos países em que estão
-                    alocados,
-                    podendo atuar também em seus países de origem. No caso do Brasil, o representante que atuar
-                    no território
-                    brasileiro irá trabalhar em departamentos do Ministério das Relações Exteriores em Brasília,
-                    ou em
-                    entidades pertencentes à Organização das Nações Unidas, a ONU, que atuam no país. Já em
-                    outros países, o
-                    diplomata realiza seu trabalho em embaixadas (embaixador), responsáveis pelas relações com o
-                    país no qual
-                    ele está instalado. Podendo atuar também em consulados (cônsul), que são mais atribuídos em
-                    questões
-                    relacionadas à população, sendo ambas as funções complementares. Em outros casos, o
-                    profissional pode
-                    trabalhar em departamentos especializados da ONU ou em missões internacionais
-                    especializadas.
-
+                <p>O pensamento de que se é possível atingir um “corpo perfeito” é amplamente divulgado e incentivado, fazendo com que as mulheres encontrem defeitos em seus corpos e passem, então, a viver uma relação complexa com a própria imagem, levando, principalmente, à não aceitação de suas características e à busca incessante pela eliminação de traços que são próprios de sua existência.</p>
+                <p>Em sumo, o ideal de padronizar as mulheres moldando-as como se fossem objetos se caracteriza como um dos discursos mais influentes da história, pois o patriarcado sempre consegue alienar as mulheres a pensarem que seus corpos são um problema, fazendo com que elas enxerguem uma realidade distorcida de si mesmas por meio das fake news e pelo padrão ideal de beleza.
+                </p>
                 </p>
             </div>
         </div>

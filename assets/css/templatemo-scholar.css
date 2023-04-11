@@ -248,7 +248,7 @@ Pre-loader Style
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.99);
+  background-color: #B22222;
   display: -webkit-box;
   display: flex;
   -webkit-box-align: center;
@@ -309,7 +309,7 @@ Pre-loader Style
   height: 16px;
   top: 12px;
   left: 15px;
-  background: #B22222;
+  background: #1e1e1e;
   border-radius: 50%;
   -webkit-transform: translateX(0);
   transform: translateX(0);
@@ -756,33 +756,34 @@ Banner Style
 */
 
 .main-banner {
-  background-image: url(../images/fundoSite2.png);
+  background-image: url(../images/fundoBanner.png);
   background-position: right bottom;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 170px 0px 120px 0px;
+  padding: 150px 0px 100px 0px;
 
 }
 
+/* 
 .main-banner .item-1 {
-  background-image: url(../images/banner-item-01.jpg);
+  background-image: url(../images/Banner1.png);
 }
 
 .main-banner .item-2 {
-  background-image: url(../images/banner-item-02.jpg);
+  background-image: url(../images/Banner2.png);
 }
 
 .main-banner .item-3 {
-  background-image: url(../images/banner-item-03.jpg);
+  background-image: url(../images/Banner4.png);
 }
-
+*/
 .main-banner .item {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   border-radius: 25px;
-  padding: 100px 100px;
-  margin-left: 130px;
+  padding: 80px 80px;
+  margin-left: 100px;
 }
 
 .main-banner .item span.category {
@@ -902,10 +903,10 @@ Services Style
 .services .service-item .icon {
   width: 190px;
   height: 190px;
-  display: flex;
+  display: inline-block;
   text-align: center;
   line-height: 190px;
-  background-color: #1e1;
+  background-color: #B22222;
   border-radius: 50%;
   position: absolute;
   right: 0;
@@ -1803,6 +1804,10 @@ body {
 
 @media (max-width: 992px) {
 
+  .banner {
+    display: none !important;
+  }
+
   .header-area .main-nav #search input,
   .header-area .main-nav #search i {
     display: none;
@@ -2056,6 +2061,7 @@ body {
 /* CSS audio*/
 audio::-webkit-media-controls-panel {
   background-color: #B22222;
+ 
 }
 
 audio::-webkit-media-controls-timeline {
@@ -2071,3 +2077,12 @@ audio::-webkit-media-controls-timeline {
   margin-bottom: 28px;
 }
 
+.testeCor {
+  opacity: 0;
+}
+
+.img-item1 {
+  height: 700px;
+  width: 600px;
+
+}

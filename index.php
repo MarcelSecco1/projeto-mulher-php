@@ -42,8 +42,8 @@ require "conexao.php";
       <div class="col-12">
         <nav class="main-nav">
           <!-- ***** Logo Start ***** -->
-          <a href="index.php" class="logo">
-            <h1>Projeto</h1>
+          <a href="index.php" class="mt-2">
+            <h3 class="text-white mt-3">FAKE IS</h3>
           </a>
           <!-- ***** Logo End ***** -->
           <!-- ***** Menu Start ***** -->
@@ -54,9 +54,9 @@ require "conexao.php";
             <li class="scroll-to-section">
               <a href="#services">Temas</a>
             </li>
-            <li class="scroll-to-section"><a href="#about-us">Sobre</a></li>
+            <li class="scroll-to-section"><a href="#conclusao">Conclusão</a></li>
+            <li class="scroll-to-section"><a href="#about-us">Destaques</a></li>
             <li class="scroll-to-section"><a href="#team">Membros</a></li>
-            <li class="scroll-to-section"><a href="#depoimentos">Depoimentos</a></li>
             <li class="scroll-to-section"><a href="#contact">Contato</a></li>
           </ul>
           <a class="menu-trigger">
@@ -70,57 +70,21 @@ require "conexao.php";
 </header>
 <!-- ***** Header Area End ***** -->
 
-<div class="main-banner" id="top">
+<div class="main-banner banner" id="top">
   <div class="container">
     <div class="row">
       <div class="col-lg-12">
         <div class="owl-carousel owl-banner">
           <div class="item item-1">
-            <div class="header-text">
-              <span class="category">Informação</span>
-              <h2>Boas Vindas!!</h2>
-              <p>
-                Scholar is free CSS template designed by TemplateMo for
-                online educational related websites. This layout is based on
-                the famous Bootstrap v5.3.0 framework.
-              </p>
-              <div class="buttons">
-
-                <div class="icon-button">
-                  <a href="https://www.instagram.com/reel/Cpk2ggfo5J8/?igshid=MDJmNzVkMjY%3D" target="_blank"><i class="fa fa-play"></i> What's Scholar?</a>
-                </div>
-
-              </div>
-            </div>
+            <img src="assets\images\Banner1.png" class="img-item1 rounded-4">
           </div>
+
           <div class="item item-2">
-            <div class="header-text">
-              <span class="category">Conhecimento</span>
-              <h2>O que desejamos transmitir?</h2>
-              <p>
-                You are allowed to use this template for any educational or
-                commercial purpose. You are not allowed to re-distribute the
-                template ZIP file on any other website.
-              </p>
-
-              <div class="buttons">
-
-              </div>
-            </div>
+            <img src="assets\images\Banner2.png" class="img-item1 rounded-4">
           </div>
           <div class="item item-3">
             <div class="header-text">
-              <span class="category">Finalidade</span>
-              <h2>Finalidade final desse projeto?</h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                do eiusmod temporious incididunt ut labore et dolore magna
-                aliqua suspendisse.
-              </p>
-
-              <div class="buttons">
-
-              </div>
+              <img src="assets\images\Banner4.png" class="img-item1 rounded-4">
             </div>
           </div>
         </div>
@@ -129,16 +93,17 @@ require "conexao.php";
   </div>
 </div>
 
+
 <!--Música site-->
 
 <div class="audio-site">
-  <div class="texto-audio">
+  <div class="texto-audio mt-5">
     <div class="header-text">
-      <h2>Sugestão de Música: </h2>
+      <h2 class="mt-4">Sugestão de Música: </h2>
     </div>
   </div>
   <audio controls class="audio-projeto">
-    <source src="audio/TRAILER OFICIA WAV.mp3" type="audio/mpeg">
+    <source src="assets\audio\Francisco el Hombre - Triste Louca ou Má (OFICIAL).mp3" type="audio/mpeg">
   </audio>
 </div>
 <div class="pai">
@@ -151,13 +116,12 @@ require "conexao.php";
               <img src="assets/images/service-01.png" alt="online degrees" />
             </div>
             <div class="main-content">
-              <h4>Online Degrees</h4>
+              <h4>Personificação <br>do mal:</h4>
               <p>
-                Whenever you need free templates in HTML CSS, you just
-                remember TemplateMo website.
+                As fake news (fatos falsos) criadas por homens influenciaram duramente a vidas das mulheres<a href="pg01.php" class="text-primary">...</a>
               </p>
               <div class="main-button">
-                <a href="pg01.php">Read More</a>
+                <a href="pg01.php">Ler mais...</a>
               </div>
             </div>
           </div>
@@ -165,16 +129,15 @@ require "conexao.php";
         <div class="col-lg-4 col-md-6">
           <div class="service-item">
             <div class="icon">
-              <img src="assets/images/service-02.png" alt="short courses" />
+              <img src="assets/images/service-01.png" alt="short courses" />
             </div>
             <div class="main-content">
-              <h4>Short Courses</h4>
+              <h4>Inquisição às bruxas:</h4>
               <p>
-                You can browse free templates based on different tags such as
-                digital marketing, etc.
+                O conservadorismo dizimou milhares A fogueira ainda queima. As bruxas ainda são caçadas e não<a href="pg02.php" class="text-primary">...</a>
               </p>
               <div class="main-button">
-                <a href="pg02.php">Read More</a>
+                <a href="pg02.php">Ler mais...</a>
               </div>
             </div>
           </div>
@@ -183,16 +146,15 @@ require "conexao.php";
         <div class="col-lg-4 col-md-6">
           <div class="service-item">
             <div class="icon">
-              <img src="assets/images/service-03.png" alt="web experts" />
+              <img src="assets/images/service-01.png" alt="web experts" />
             </div>
             <div class="main-content">
-              <h4>Web Experts</h4>
+              <h4>O padrão da beleza:</h4>
               <p>
-                You can start learning HTML CSS by modifying free templates
-                from our website too.
+                A tentativa de padronizar os corpos femininos e limitar a liberdade das mulheres está presente no nosso cotidiano<a href="pg03.php" class="text-primary">...</a>
               </p>
               <div class="main-button">
-                <a href="pg03.php">Read More</a>
+                <a href="pg03.php">Ler mais...</a>
               </div>
             </div>
           </div>
@@ -207,13 +169,12 @@ require "conexao.php";
               <img src="assets/images/service-01.png" alt="online degrees" />
             </div>
             <div class="main-content">
-              <h4>Online Degrees</h4>
+              <h4>Educação feminina:</h4>
               <p>
-                Whenever you need free templates in HTML CSS, you just
-                remember TemplateMo website.
+                A educação é a única forma de interromper o ciclo de disseminação de fake news (Agência Senado).<a href="pg04.php" class="text-primary">...</a>
               </p>
               <div class="main-button">
-                <a href="pg04.php">Read More</a>
+                <a href="pg04.php">Ler mais...</a>
               </div>
             </div>
           </div>
@@ -224,13 +185,12 @@ require "conexao.php";
               <img src="assets/images/service-01.png" alt="online degrees" />
             </div>
             <div class="main-content">
-              <h4>Online Degrees</h4>
+              <h4>Conquista e desigualdade:</h4>
               <p>
-                Whenever you need free templates in HTML CSS, you just
-                remember TemplateMo website.
+                A conquista da cidadania feminina foi consolidada pelo direito ao voto, aumentando sua liberdade. Entretanto, a<a href="pg05.php" class="text-primary">...</a>
               </p>
               <div class="main-button">
-                <a href="pg05.php">Read More</a>
+                <a href="pg05.php">Ler mais...</a>
               </div>
             </div>
           </div>
@@ -241,14 +201,39 @@ require "conexao.php";
               <img src="assets/images/service-01.png" alt="online degrees" />
             </div>
             <div class="main-content">
-              <h4>Online Degrees</h4>
+              <h4>Direitos<br>femininos:</h4>
               <p>
-                Whenever you need free templates in HTML CSS, you just
-                remember TemplateMo website.
+                Atualmente, a luta pelo direito das mulheres ainda é árdua e, mesmo já tendo conquistado muito, ainda.<a href="pg06.php" class="text-primary">...</a>
               </p>
               <div class="main-button">
-                <a href="pg06.php">Read More</a>
+                <a href="pg06.php">Ler mais...</a>
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="section fun-facts" id="conclusao">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="wrapper">
+          <div class="row">
+            <div class="col-lg-12 col-md-6">
+              
+                <!--<h3 class="text-white">
+                  Conclusão:
+                </h3>
+-->
+                <p class="count-text text-dark">
+                  A construção social histórica de subordinação da mulher está intimamente atrelada às questões de gênero, questões essas que submetiam a mulher a uma figura de frágil e pecadora, e por assim ser, devendo ficar condicionada a uma posição de inferioridade. Ideias como essas foram transmitidas de geração a geração, a diversos povos e culturas, fortalecendo a ideia de que a mulher tinha como papel exclusivo o de ser mãe e dona de casa.
+                </p>
+                <p class="count-text text-dark">
+                  Podemos perceber que essa construção está amplamente evidenciada, através dos diferentes papeis ocupados por homens e mulheres na sociedade, e que ao longo dos anos têm marcado as mulheres com desigualdade, preconceito e discriminação, afetando-as como um todo, moralmente, fisicamente e psicologicamente, trata-se de uma historia escrita pelo silêncio de uma sociedade patriarcal onde se tinha um império do domínio masculino.
+                </p>
+              
             </div>
           </div>
         </div>
@@ -265,16 +250,13 @@ require "conexao.php";
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingOne">
               <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                Where shall we begin?
+                Silvia Federici (1942-)
               </button>
             </h2>
             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                Dolor <strong>almesit amet</strong>, consectetur adipiscing
-                elit, sed doesn't eiusmod tempor incididunt ut labore
-                consectetur <code>adipiscing</code> elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Quis
-                ipsum suspendisse ultrices gravida.
+                <p><i>"As diferenças não são o problema, o problema é a hierarquia."</i></p><br>
+                <p>Ativista feminista, filósofa, escritora e professora italiana.</p>
               </div>
             </div>
           </div>
@@ -282,45 +264,40 @@ require "conexao.php";
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingTwo">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                How do we work together?
+                Simone de Beauvoir (1908-1986)
               </button>
             </h2>
             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                Dolor <strong>almesit amet</strong>, consectetur adipiscing
-                elit, sed doesn't eiusmod tempor incididunt ut labore
-                consectetur <code>adipiscing</code> elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Quis
-                ipsum suspendisse ultrices gravida.
+                <p><i>“Ninguém nasce mulher: torna-se mulher.”</i></p><br>
+                <p>Escritora francesa, filósofa existencialista, memorialista e feminista.</p>
               </div>
             </div>
           </div>
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingThree">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                Why SCHOLAR is the best?
+                Malala Yousafzai (1997-)
+
               </button>
             </h2>
             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                There are more than one hundred responsive HTML templates to
-                choose from <strong>Template</strong>Mo website. You can
-                browse by different tags or categories.
+                <p><i>"Eu decidi que não há nada de errado em se considerar feminista. Então, eu sou uma feminista e todas nós deveríamos ser feministas, porque feminismo é uma outra palavra para igualdade."</i></p><br>
+                <p>Ativista paquistanesa e pessoa mais jovem a receber um prêmio Nobel.</p>
               </div>
             </div>
           </div>
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingFour">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                Do we get the best support?
+                Djamila Ribeiro (1980-)
               </button>
             </h2>
             <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                You can also search on Google with specific keywords such as
-                <code>templatemo business templates, templatemo gallery
-                  templates, admin dashboard templatemo, 3-column
-                  templatemo, etc.</code>
+                <p><i>“Minha luta diária é para ser reconhecida como sujeito, impor minha existência numa sociedade que insiste em negá-la.”</i></p><br>
+                <p>Filósofa, ativista social, professora e escritora brasileira.</p>
               </div>
             </div>
           </div>
@@ -328,52 +305,13 @@ require "conexao.php";
       </div>
       <div class="col-lg-5 align-self-center">
         <div class="section-heading">
-          <h6>About Us</h6>
-          <h2>What make us the best academy online?</h2>
+          <h6>Referências femininas:</h6>
+          <h2>Você conhece elas??</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
-            ipsum suspendisse ultrices gravid risus commodo.
+            O destaque das mulheres é evidente em qualquer ambito, e na ciência não poderia ser diferente. Veja ao lado algumas mulheres que provaram que lugar de mulher é onde ela quiser!
           </p>
           <div class="main-button">
-            <a href="#">Discover More</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="section fun-facts">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12">
-        <div class="wrapper">
-          <div class="row">
-            <div class="col-lg-3 col-md-6">
-              <div class="counter">
-                <h2 class="timer count-title count-number" data-to="150" data-speed="1000"></h2>
-                <p class="count-text">Happy Students</p>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-6">
-              <div class="counter">
-                <h2 class="timer count-title count-number" data-to="804" data-speed="1000"></h2>
-                <p class="count-text">Course Hours</p>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-6">
-              <div class="counter">
-                <h2 class="timer count-title count-number" data-to="50" data-speed="1000"></h2>
-                <p class="count-text">Employed Students</p>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-6">
-              <div class="counter end">
-                <h2 class="timer count-title count-number" data-to="15" data-speed="1000"></h2>
-                <p class="count-text">Years Experience</p>
-              </div>
-            </div>
+            <a href="https://www.instagram.com/reel/Cpk2ggfo5J8/?utm_source=ig_web_copy_link" target="_blank">Veja mais...</a>
           </div>
         </div>
       </div>
@@ -387,18 +325,18 @@ require "conexao.php";
       <div class="col-lg-3 col-md-6">
         <div class="team-member">
           <div class="main-content">
-            <img src="assets/images/member-01.jpg" alt="" />
-            <span class="category">Pequisas do Site</span>
+            <img src="assets/images/enzo.png" alt="" />
+            <span class="category">Organização e elaboração de conteúdo</span>
             <h4>Enzo Secco Fassani</h4>
             <ul class="social-icons">
               <li>
-                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="https://instagram.com/enzosfassani?igshid=ZDdkNTZiNTM="><i class="fab fa-instagram"></i></a>
               </li>
               <li>
-                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="https://twitter.com/enzofazzani?t=wLVSgq6Gi8eYuil2uPhUaQ&s=08"><i class="fab fa-twitter"></i></a>
               </li>
               <li>
-                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.linkedin.com/in/enzo-secco-fassani-66127426a"><i class="fab fa-linkedin"></i></a>
               </li>
             </ul>
           </div>
@@ -407,38 +345,40 @@ require "conexao.php";
       <div class="col-lg-3 col-md-6">
         <div class="team-member">
           <div class="main-content">
-            <img src="assets/images/member-02.jpg" alt="" />
+            <img src="assets/images/eu.png" alt="" />
             <span class="category">Desenvolvimento do Site</span>
             <h4>Marcel Secco Rodrigues</h4>
             <ul class="social-icons">
               <li>
-                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="https://instagram.com/m.secco99"><i class="fab fa-instagram"></i></a>
               </li>
               <li>
-                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="https://twitter.com/MarcelSecco"><i class="fab fa-twitter"></i></a>
               </li>
               <li>
-                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.linkedin.com/in/marcel-secco-658081266"><i class="fab fa-linkedin"></i></a>
               </li>
             </ul>
           </div>
         </div>
       </div>
+
+
       <div class="col-lg-3 col-md-6">
         <div class="team-member">
           <div class="main-content">
-            <img src="assets/images/member-03.jpg" alt="" />
-            <span class="category">Desenvolvimento dos Panfletos</span>
+            <img src="assets/images/duarda.png" alt="" />
+            <span class="category">Desenvolvimento de pesquisas, imagens e cartazes</span>
             <h4>Maria Eduarda da Silva Iuga</h4>
             <ul class="social-icons">
               <li>
-                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="https://instagram.com/madu_iuga?igshid=YmMyMTA2M2Y="><i class="fab fa-instagram"></i></a>
               </li>
               <li>
-                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="https://twitter.com/dudaiuga?s=11&t=JL5gHf0Xpct_70o0MdJ3Og"><i class="fab fa-twitter"></i></a>
               </li>
               <li>
-                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.linkedin.com/in/maria-eduarda-iuga-3572ba271"><i class="fab fa-linkedin"></i></a>
               </li>
             </ul>
           </div>
@@ -447,98 +387,26 @@ require "conexao.php";
       <div class="col-lg-3 col-md-6">
         <div class="team-member">
           <div class="main-content">
-            <img src="assets/images/member-04.jpg" alt="" />
-            <span class="category">Pesquisa dos Panfletos</span>
-            <h4>Maria Eduarda Violin Lima</h4>
-            <ul class="social-icons">
-              <li>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-              </li>
-              <li>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-              </li>
-              <li>
-                <a href="#"><i class="fab fa-linkedin"></i></a>
-              </li>
-            </ul>
+            <img src="assets/images/lima.png" alt="" />
+            <span class="category">Produção das artes para divulgação</span>
+            <h4>Maria Eduarda Violin Lima</h 4>
+              <ul class="social-icons">
+                <li>
+                  <a href="https://instagram.com/madu_violin?igshid=YmMyMTA2M2Y="><i class="fab fa-instagram"></i></a>
+                </li>
+                <li>
+                  <a href="https://twitter.com/eduarda_violin?s=21"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/in/maria-eduarda-violin-lima-0a100926a"><i class="fab fa-linkedin"></i></a>
+                </li>
+              </ul>
           </div>
         </div>
       </div>
     </div>
   </div>
 </div>
-
-<div class="section testimonials" id="depoimentos">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-7">
-        <div class="owl-carousel owl-testimonials">
-          <div class="item">
-            <p>
-              “Please tell your friends or collegues about TemplateMo
-              website. Anyone can access the website to download free
-              templates. Thank you for visiting.”
-            </p>
-            <div class="author">
-              <img src="assets/images/testimonial-author.jpg" alt="" />
-              <span class="category"></span>
-              <h4>Enzo Secco</h4>
-            </div>
-          </div>
-          <div class="item">
-            <p>
-              “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-              do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Quis ipsum suspendisse ultrices gravid.”
-            </p>
-            <div class="author">
-              <img src="assets/images/testimonial-author.jpg" alt="" />
-              <span class="category">UI Expert</span>
-              <h4>Maria Eduarda Violin</h4>
-            </div>
-          </div>
-          <div class="item">
-            <p>
-              “Please tell your friends or collegues about TemplateMo
-              website. Anyone can access the website to download free
-              templates. Thank you for visiting.”
-            </p>
-            <div class="author">
-              <img src="assets/images/testimonial-author.jpg" alt="" />
-              <span class="category"></span>
-              <h4>Marcel Secco</h4>
-            </div>
-          </div>
-
-          <div class="item">
-            <p>
-              “Scholar is free website template provided by TemplateMo for
-              educational related websites. This CSS layout is based on
-              Bootstrap v5.3.0 framework.”
-            </p>
-            <div class="author">
-              <img src="assets/images/testimonial-author.jpg" alt="" />
-              <span class="category">Digital Animator</span>
-              <h4>Maria Eduarda Iuga</h4>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-5 align-self-center">
-        <div class="section-heading">
-          <h6>DEPOIMENTOS</h6>
-          <h2>Qual a finalidade desse Trabalho?</h2>
-          <p>
-            You can search free CSS templates on Google using different
-            keywords such as templatemo portfolio , templatemo gallery,
-            templatemo blue color, etc.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
 <div class="contact-us section" id="contact">
   <div class="container">
     <div class="row">
